@@ -1,0 +1,1728 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'ru' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Unity_Projects/Gluhih_2D_Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54337
+Successfully changed project path to: G:/Unity_Projects/Gluhih_2D_Platformer
+G:/Unity_Projects/Gluhih_2D_Platformer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity_Projects/Gluhih_2D_Platformer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001881 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 1.734300 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.078600 ms MarkObjects: 1.289300 ms  DeleteObjects: 0.093300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/BURLY-MAN_1_swordsman.prefab
+  artifactKey: Guid(e401b93f8d618fb43b67f19b68229e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/BURLY-MAN_1_swordsman.prefab using Guid(e401b93f8d618fb43b67f19b68229e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e33af49de87e95638c452f7d386a56') in 0.138773 seconds
+  Import took 0.142373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/BURLY-MAN_1_swordsman.psd
+  artifactKey: Guid(199b98daa1874e24891d450049f271a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/BURLY-MAN_1_swordsman.psd using Guid(199b98daa1874e24891d450049f271a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b3fd2dc085e50776d11bf00bdd8714') in 0.076957 seconds
+  Import took 0.080503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/Animation
+  artifactKey: Guid(d7de96b6ba0a2f84da4b7974b1277413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/Animation using Guid(d7de96b6ba0a2f84da4b7974b1277413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429be0461154cef48edc325572a51960') in 0.004274 seconds
+  Import took 0.006262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/BURLY-MAN 1.png
+  artifactKey: Guid(46098d23007c94e40a4c814b91d41838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/BURLY-MAN 1.png using Guid(46098d23007c94e40a4c814b91d41838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6eef674d0d16225489eca64f01b245') in 0.038280 seconds
+  Import took 0.040601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/Canvas.prefab
+  artifactKey: Guid(eab3d48185eaa97409076ceb28c0044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/Canvas.prefab using Guid(eab3d48185eaa97409076ceb28c0044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2249548901038dbe9f4650598bbb0c3') in 0.019224 seconds
+  Import took 0.021281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/Completed_IMG.png
+  artifactKey: Guid(f782ada428eba8b40a92286f440060c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/Completed_IMG.png using Guid(f782ada428eba8b40a92286f440060c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85af5d87a83e29735f156f25819c8d3') in 0.010106 seconds
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/Canvas.prefab
+  artifactKey: Guid(eab3d48185eaa97409076ceb28c0044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/Canvas.prefab using Guid(eab3d48185eaa97409076ceb28c0044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2249548901038dbe9f4650598bbb0c3') in 0.003269 seconds
+  Import took 0.006753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman
+  artifactKey: Guid(fe12a599ce40a6a41ad1833bdbfcc67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman using Guid(fe12a599ce40a6a41ad1833bdbfcc67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3fa6de3479a2b808512655a60f635a') in 0.001872 seconds
+  Import took 0.004040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]
+  artifactKey: Guid(b089f269cae5d694c8df1c354918e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ] using Guid(b089f269cae5d694c8df1c354918e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077f59ea98ece8f2f9539df6b0026ff7') in 0.004570 seconds
+  Import took 0.006862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Free_Pack
+  artifactKey: Guid(438da55a40262ad46a467650d2106d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack using Guid(438da55a40262ad46a467650d2106d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c0f37d7e7248e42a0c23c1d3a8c7b1') in 0.005518 seconds
+  Import took 0.007686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/line.png
+  artifactKey: Guid(d4bd0dfde7292e949a8c740ce999d97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/line.png using Guid(d4bd0dfde7292e949a8c740ce999d97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f4350a6e36ad26affeaa19ba377ad3') in 0.008921 seconds
+  Import took 0.011315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138632 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Bottom_wear.png
+  artifactKey: Guid(1b13a2bc7aa87704d88d9478ff9ca426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Bottom_wear.png using Guid(1b13a2bc7aa87704d88d9478ff9ca426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50c287e7a822fdd6157a1b833679582') in 0.010775 seconds
+  Import took 0.014468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Nose.png
+  artifactKey: Guid(c1d7af85d1efdaa47929ee3cbc38ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Nose.png using Guid(c1d7af85d1efdaa47929ee3cbc38ea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b98ef03fa0d632d5a4839353467de1d') in 0.008280 seconds
+  Import took 0.010479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Arm.png
+  artifactKey: Guid(f2a43cbfdd2068e43a90a55526056f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Arm.png using Guid(f2a43cbfdd2068e43a90a55526056f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449eeb60ebd24119339e036b644d76b6') in 0.009818 seconds
+  Import took 0.012356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Leg.png
+  artifactKey: Guid(aed574444b0ae1244ac27a5e60b0fae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Leg.png using Guid(aed574444b0ae1244ac27a5e60b0fae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e35b506ded77fc38573ffcbce7bf20e') in 0.008504 seconds
+  Import took 0.010761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Hair.png
+  artifactKey: Guid(b150e2e1d88606747a1d9852a57772f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Hair.png using Guid(b150e2e1d88606747a1d9852a57772f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732f7c7f23f2bd39a34ded2ee6125a81') in 0.011798 seconds
+  Import took 0.014450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Foot.png
+  artifactKey: Guid(b0f63176509e32e47a7685a6bc9c8cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Foot.png using Guid(b0f63176509e32e47a7685a6bc9c8cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a63222d26bb4d174f7d7ab236c3826') in 0.008785 seconds
+  Import took 0.011186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Ear.png
+  artifactKey: Guid(dd2f1d29f277dc44e90b874f0307ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Ear.png using Guid(dd2f1d29f277dc44e90b874f0307ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e8a5ff24ec5d17cc79a75649eadfce') in 0.009718 seconds
+  Import took 0.012255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/shadow.png
+  artifactKey: Guid(12ad595c99b35a940958b5c00de4b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/shadow.png using Guid(12ad595c99b35a940958b5c00de4b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80366e212957f4e1f608ff5b5ed43651') in 0.009873 seconds
+  Import took 0.012119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Hand_wear.png
+  artifactKey: Guid(ad19a44ab1a00d64ebb3df503f32f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Hand_wear.png using Guid(ad19a44ab1a00d64ebb3df503f32f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa2ec66a87e814de2d42f8abd57e088') in 0.009462 seconds
+  Import took 0.012338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Finger_wear.png
+  artifactKey: Guid(d03d6e7d29e8195448502a9b920589a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Finger_wear.png using Guid(d03d6e7d29e8195448502a9b920589a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a75052d8cdf9d7dd6ae6413d7479d0') in 0.008716 seconds
+  Import took 0.011040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/mouth_open.png
+  artifactKey: Guid(36b076dedc7e376409f3986285fcb3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/mouth_open.png using Guid(36b076dedc7e376409f3986285fcb3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3294522283f0d5be283e86e94c281d5') in 0.009203 seconds
+  Import took 0.011379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/eyes_close.png
+  artifactKey: Guid(3f6f4838ce1cdae4285b96d9337faaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/eyes_close.png using Guid(3f6f4838ce1cdae4285b96d9337faaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22305132919842bffd74baeb8443517e') in 0.011705 seconds
+  Import took 0.013823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Hand_wear.png
+  artifactKey: Guid(62b418cb5738ec545a750e5dad2959cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Hand_wear.png using Guid(62b418cb5738ec545a750e5dad2959cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f5a09b58848ccc0c4a10470b187328') in 0.009036 seconds
+  Import took 0.011302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Arm_wear.png
+  artifactKey: Guid(c73e85ac2e7fab545b7a3e6ed064641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Arm_wear.png using Guid(c73e85ac2e7fab545b7a3e6ed064641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a90162eded3cbd55bf442853762bc30') in 0.010480 seconds
+  Import took 0.012753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Arm.png
+  artifactKey: Guid(41b3b1ecbb440334eb9cd11a8361ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Arm.png using Guid(41b3b1ecbb440334eb9cd11a8361ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a03f95ef95744562a91bc7051cda4c') in 0.009111 seconds
+  Import took 0.011250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Thigh_wear.png
+  artifactKey: Guid(440e09337e4eef846a322a1d9fbab2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Thigh_wear.png using Guid(440e09337e4eef846a322a1d9fbab2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e631d41981ab7da812e2e1cc68a366e2') in 0.010117 seconds
+  Import took 0.012834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Leg_wear.png
+  artifactKey: Guid(ad56a081fe719b045988653592210e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Leg_wear.png using Guid(ad56a081fe719b045988653592210e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6145fa0301d28d163f78ba3bd1f5d714') in 0.009260 seconds
+  Import took 0.011628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Leg.png
+  artifactKey: Guid(f65c3f688a745b549a53aef20971df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Leg.png using Guid(f65c3f688a745b549a53aef20971df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbe5e0757a0ca57d7c297b870fd1eaa') in 0.008890 seconds
+  Import took 0.011756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Finger_wear.png
+  artifactKey: Guid(e31fe4bca4a758145b4ff68dc392a57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Finger_wear.png using Guid(e31fe4bca4a758145b4ff68dc392a57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be440d887d8374faaf34dd141d507d2a') in 0.008276 seconds
+  Import took 0.010462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Thigh_wear.png
+  artifactKey: Guid(f4a0ef1f66d0a1e40b8814b573440fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Thigh_wear.png using Guid(f4a0ef1f66d0a1e40b8814b573440fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056e051d4ea37877bdc5efc1347c4863') in 0.009372 seconds
+  Import took 0.011660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Arm_wear.png
+  artifactKey: Guid(c81e98157b9b0fa4cb11b302745aa486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Arm_wear.png using Guid(c81e98157b9b0fa4cb11b302745aa486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f9d60c6e57e5a07ff8f680e5cbeb5') in 0.009680 seconds
+  Import took 0.012274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Thigh.png
+  artifactKey: Guid(a9119315fb19af743be785d2f0b120c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Thigh.png using Guid(a9119315fb19af743be785d2f0b120c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbea96cc053798808457a8efe1372c5f') in 0.009302 seconds
+  Import took 0.012185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Hand.png
+  artifactKey: Guid(f22ad5042d04fed46b2adbe3177c2789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Hand.png using Guid(f22ad5042d04fed46b2adbe3177c2789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c25575c641e57c249cabb9c075585f4') in 0.010460 seconds
+  Import took 0.013228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/flush.png
+  artifactKey: Guid(ed5aef7e49882334ba4733068da56627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/flush.png using Guid(ed5aef7e49882334ba4733068da56627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfdcffeb14d82c6aee83d0b13acbd61') in 0.008372 seconds
+  Import took 0.010849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Top_wear.png
+  artifactKey: Guid(5610271362c08b240b4e1abf9a5b612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Top_wear.png using Guid(5610271362c08b240b4e1abf9a5b612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd1f3b8d354dad7d4e21a385d7a6d19') in 0.010831 seconds
+  Import took 0.013109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_eyebrow.png
+  artifactKey: Guid(0b6ae42185b08354a8ced051fc9c0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_eyebrow.png using Guid(0b6ae42185b08354a8ced051fc9c0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d427eb96ce444661696d60d4ef5ff18') in 0.008455 seconds
+  Import took 0.010908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Hand.png
+  artifactKey: Guid(bfe9470e48bc98d4594a66622ba8e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Hand.png using Guid(bfe9470e48bc98d4594a66622ba8e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85b1da02f7b536a0b65f4132bd86f12') in 0.009386 seconds
+  Import took 0.011720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Hip.png
+  artifactKey: Guid(b78080247507b194f8da6d0be71e20fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Hip.png using Guid(b78080247507b194f8da6d0be71e20fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e8fd9431915aa4255fd30578a2310') in 0.011039 seconds
+  Import took 0.013447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Shoulder.png
+  artifactKey: Guid(5fe9133a295ed784b850bb55cd42165d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Shoulder.png using Guid(5fe9133a295ed784b850bb55cd42165d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1230497f9d00a430459d1c5a64c23b60') in 0.009426 seconds
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Chest.png
+  artifactKey: Guid(c01f6e0a57e462349a10684868028c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/Chest.png using Guid(c01f6e0a57e462349a10684868028c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936781f68fe693046ebc030890de875a') in 0.010660 seconds
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Weapon.png
+  artifactKey: Guid(d9d955207cd9bf24ca00ed292731333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Weapon.png using Guid(d9d955207cd9bf24ca00ed292731333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5cb3b4f48bef2a1b72522b6613da6f') in 0.010044 seconds
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Foot_wear.png
+  artifactKey: Guid(9a9dacd28e8935d43961f31c4c4753fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Foot_wear.png using Guid(9a9dacd28e8935d43961f31c4c4753fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f9fe4af9eb3cce0eeda657bbe7eb46') in 0.009217 seconds
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/eyes_open.png
+  artifactKey: Guid(d4bf428fda550604d80ef0882e63eb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/eyes_open.png using Guid(d4bf428fda550604d80ef0882e63eb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510c21a14ef35ab70b142769f6d993e3') in 0.008597 seconds
+  Import took 0.010790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Shoulder_wear.png
+  artifactKey: Guid(94c0117818ff55343bf808398791a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Shoulder_wear.png using Guid(94c0117818ff55343bf808398791a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce81ad5048aedc85dcf68caa823852a4') in 0.008759 seconds
+  Import took 0.011531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/eyes_hurt.png
+  artifactKey: Guid(c0210f048a13a2c49ad6411a9131b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/eyes_hurt.png using Guid(c0210f048a13a2c49ad6411a9131b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699b3b46d69156f762f38e143722cf5') in 0.008622 seconds
+  Import took 0.011027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/FACE.png
+  artifactKey: Guid(67bb45b2d28b7564ea3bce007a6e63fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/FACE.png using Guid(67bb45b2d28b7564ea3bce007a6e63fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa6e51a813238f46734957e115375c2') in 0.010623 seconds
+  Import took 0.013221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Finger.png
+  artifactKey: Guid(c23afa1d17494fc46a2ffcc8a464b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Finger.png using Guid(c23afa1d17494fc46a2ffcc8a464b00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cb5962c3e3c7fb97019ba1fd2b2c65') in 0.009229 seconds
+  Import took 0.013075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Finger.png
+  artifactKey: Guid(52087d8b9c7e3634ea12eea7132ce866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Finger.png using Guid(52087d8b9c7e3634ea12eea7132ce866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14a0940ccec3942d5dc0e123af0c30b') in 0.008483 seconds
+  Import took 0.011074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Leg_wear.png
+  artifactKey: Guid(eb9ffadb98e02084d9c552f6d0c3335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Leg_wear.png using Guid(eb9ffadb98e02084d9c552f6d0c3335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a901040a72158b901f02600d419ac259') in 0.010260 seconds
+  Import took 0.012617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/mouth_close.png
+  artifactKey: Guid(5feacfd876a3943469873fee45c9a04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/mouth_close.png using Guid(5feacfd876a3943469873fee45c9a04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080c67262d66de55c87efab564cf7f08') in 0.010171 seconds
+  Import took 0.012462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Foot_wear.png
+  artifactKey: Guid(478ca4fd43927fd4bb744400e6bbd356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Foot_wear.png using Guid(478ca4fd43927fd4bb744400e6bbd356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b2071c95eb87cbdf1ac5e35356a0eb') in 0.009258 seconds
+  Import took 0.011331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Arm 1.png
+  artifactKey: Guid(5ff1bd8dd71662641beeb54ab62f9e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Arm 1.png using Guid(5ff1bd8dd71662641beeb54ab62f9e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d14695bd6b9bd7fbbb773769bfb5293') in 0.008240 seconds
+  Import took 0.010767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Thigh.png
+  artifactKey: Guid(3ee39ed62521fa04f961e913347cda62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Thigh.png using Guid(3ee39ed62521fa04f961e913347cda62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a732e7a1299554ea337d4c33b598d0') in 0.008921 seconds
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Shoulder.png
+  artifactKey: Guid(cbf1cedb7de0fc044bbace6bbf1d7f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_Shoulder.png using Guid(cbf1cedb7de0fc044bbace6bbf1d7f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd804314ba3ff232859a569a5c44665fb') in 0.008620 seconds
+  Import took 0.011125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/mouth_hurt.png
+  artifactKey: Guid(20934ffb8d60f514e810fd58cdc4bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/mouth_hurt.png using Guid(20934ffb8d60f514e810fd58cdc4bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86704a8e49371d6b44524701fc79035b') in 0.009067 seconds
+  Import took 0.012804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Foot.png
+  artifactKey: Guid(b435523ab9e85c14d8a2edef64d71be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/L_Foot.png using Guid(b435523ab9e85c14d8a2edef64d71be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c8d3975e48c96b11a20029f6b6742f') in 0.008820 seconds
+  Import took 0.011462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_eyebrow.png
+  artifactKey: Guid(01181c9f43994ae4da5afad74a086cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]/R_eyebrow.png using Guid(01181c9f43994ae4da5afad74a086cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cc7f9d14abb93122a3d8eb3ecaefb4') in 0.008632 seconds
+  Import took 0.011229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.822137 seconds.
+  path: Assets/Free_Pack/Demo_GameResource
+  artifactKey: Guid(6a55e5c3b78170644b744248c5228872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource using Guid(6a55e5c3b78170644b744248c5228872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482b71d5d240329ac971fe2ffb6d5ee0') in 0.008505 seconds
+  Import took 0.012220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126499 seconds.
+  path: Assets/Free_Pack/Demo_GameResource/Background.prefab
+  artifactKey: Guid(f2a49a96ce2419d4ca246ba8b38db71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource/Background.prefab using Guid(f2a49a96ce2419d4ca246ba8b38db71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953d11997e4c01b3e476ca89446ada2a') in 0.012619 seconds
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Free_Pack/Demo_GameResource/BURLY-MAN_1_swordsman.prefab
+  artifactKey: Guid(8cc81305d37e7f546ac8b6604aca1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource/BURLY-MAN_1_swordsman.prefab using Guid(8cc81305d37e7f546ac8b6604aca1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb8f304fff174409a6f628e4bd0ec6f') in 0.028271 seconds
+  Import took 0.032784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Free_Pack/Demo_GameResource/Wooden_Doll.prefab
+  artifactKey: Guid(125feebcde020894d91740ac65606688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource/Wooden_Doll.prefab using Guid(125feebcde020894d91740ac65606688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba82382957d9801e8941d7bbaf5d528') in 0.015988 seconds
+  Import took 0.019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Free_Pack/Demo_GameResource/Canvas.prefab
+  artifactKey: Guid(2e1151cbd0a77a847ab536b0f05cb03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource/Canvas.prefab using Guid(2e1151cbd0a77a847ab536b0f05cb03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f84870268767a41548949d9ef3aefd') in 0.004850 seconds
+  Import took 0.007239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.100642 seconds.
+  path: Assets/Free_Pack/Demo_GameResource/Script
+  artifactKey: Guid(aeaa1a4d44ff10e4e9b88b8b0904af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource/Script using Guid(aeaa1a4d44ff10e4e9b88b8b0904af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb5d090d8d44b0b4cd81424cbb7b53') in 0.005193 seconds
+  Import took 0.007568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Free_Pack/Demo_GameResource/Script
+  artifactKey: Guid(aeaa1a4d44ff10e4e9b88b8b0904af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Pack/Demo_GameResource/Script using Guid(aeaa1a4d44ff10e4e9b88b8b0904af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb5d090d8d44b0b4cd81424cbb7b53') in 0.001616 seconds
+  Import took 0.003990 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 1.643900 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.357300 ms  DeleteObjects: 0.077700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.811013 seconds.
+  path: Assets/COPY SPRIGHT
+  artifactKey: Guid(8dc6be90dc5a47942844420f7784b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT using Guid(8dc6be90dc5a47942844420f7784b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15062fc77a6304ea4a3e8e478b0995ea') in 0.007064 seconds
+  Import took 0.009787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757859 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut
+  artifactKey: Guid(20ca7e15149cd144398d945c1bcaf5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut using Guid(20ca7e15149cd144398d945c1bcaf5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95106dca57c83ee414302457126d678') in 0.005293 seconds
+  Import took 0.007464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut
+  artifactKey: Guid(20ca7e15149cd144398d945c1bcaf5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut using Guid(20ca7e15149cd144398d945c1bcaf5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95106dca57c83ee414302457126d678') in 0.001601 seconds
+  Import took 0.003705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.735572 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Animations
+  artifactKey: Guid(8d3e5b145d968ca41a15d43cd482a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Animations using Guid(8d3e5b145d968ca41a15d43cd482a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ded85338dd96ae1d272932acc4819d') in 0.004577 seconds
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Animations
+  artifactKey: Guid(8d3e5b145d968ca41a15d43cd482a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Animations using Guid(8d3e5b145d968ca41a15d43cd482a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ded85338dd96ae1d272932acc4819d') in 0.001587 seconds
+  Import took 0.003958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.718697 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Prefabs
+  artifactKey: Guid(690a8d0b56855ff4e89ef6cf3d8cbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Prefabs using Guid(690a8d0b56855ff4e89ef6cf3d8cbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34991330c39e53fe233e4b0b0d77275') in 0.004809 seconds
+  Import took 0.007337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000858 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Prefabs
+  artifactKey: Guid(690a8d0b56855ff4e89ef6cf3d8cbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Prefabs using Guid(690a8d0b56855ff4e89ef6cf3d8cbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34991330c39e53fe233e4b0b0d77275') in 0.001584 seconds
+  Import took 0.003703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.622457 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites
+  artifactKey: Guid(667965576b42451f8ae208150351458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites using Guid(667965576b42451f8ae208150351458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddad73e34bae1cdadc7d5cb4dbe9771') in 0.004947 seconds
+  Import took 0.007257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites
+  artifactKey: Guid(667965576b42451f8ae208150351458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites using Guid(667965576b42451f8ae208150351458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddad73e34bae1cdadc7d5cb4dbe9771') in 0.001568 seconds
+  Import took 0.004197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060190 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_bow.png
+  artifactKey: Guid(410a682b748d49d5b553923210776e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_bow.png using Guid(410a682b748d49d5b553923210776e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f68ddaa4014227635a6c9d3fa8ba59') in 0.047353 seconds
+  Import took 0.049712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_vanish.png
+  artifactKey: Guid(37db6fd26ee44919bffee8a330bd9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_vanish.png using Guid(37db6fd26ee44919bffee8a330bd9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe258c938377050dac33325ae84d6a9') in 0.062557 seconds
+  Import took 0.064793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sycthe.png
+  artifactKey: Guid(859caa1337f1497c857b71771e7c5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sycthe.png using Guid(859caa1337f1497c857b71771e7c5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3300d9bf5121e245c67b551b94f859') in 0.083203 seconds
+  Import took 0.085308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hit2.png
+  artifactKey: Guid(aaa807840a4943e79b5aa0802ee18d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hit2.png using Guid(aaa807840a4943e79b5aa0802ee18d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a0fa2bfc349c13cd3ed9b21359921f') in 0.070861 seconds
+  Import took 0.073047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hold.png
+  artifactKey: Guid(bdcf20ae532f4ef88d3b429b880553e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hold.png using Guid(bdcf20ae532f4ef88d3b429b880553e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9e02a0f2b5bcf993395eef170ff5e4') in 0.139168 seconds
+  Import took 0.141568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_duck.png
+  artifactKey: Guid(b9998a0d16f84a57a88683adbfce9aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_duck.png using Guid(b9998a0d16f84a57a88683adbfce9aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4deaeff487ef0ff15d37bf335eee6d9a') in 0.107934 seconds
+  Import took 0.110300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_gun.png
+  artifactKey: Guid(abb480a6baaf485c81c17a7f3c4fdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_gun.png using Guid(abb480a6baaf485c81c17a7f3c4fdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839e1d4755f430c0f99429ddc6e4d825') in 0.012298 seconds
+  Import took 0.014572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sycthe.png
+  artifactKey: Guid(2cd92e9f32354f3c924b9ba0617cfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sycthe.png using Guid(2cd92e9f32354f3c924b9ba0617cfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b8ee3248cdb9b7d1267dcbbbe40362') in 0.112376 seconds
+  Import took 0.114968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_carry.png
+  artifactKey: Guid(a3ebf609d64354b47bd06cdd94098ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_carry.png using Guid(a3ebf609d64354b47bd06cdd94098ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3571622b25c7ab495c3e181e1f04af') in 0.104379 seconds
+  Import took 0.106524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_carry.png
+  artifactKey: Guid(4474d2218d1233d4d9d99a809b49554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_carry.png using Guid(4474d2218d1233d4d9d99a809b49554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9db54f9db6ef02733f5fbface10420') in 0.125127 seconds
+  Import took 0.127373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_player_shadow.png
+  artifactKey: Guid(2defedf49c8d4511b29c6bc028880008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_player_shadow.png using Guid(2defedf49c8d4511b29c6bc028880008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d0bfdc53fc2bf5c5e0e2f0b38cf379') in 0.008404 seconds
+  Import took 0.010606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hit1.png
+  artifactKey: Guid(42a0d4a0cdde425a930dc5ae1c3f64ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hit1.png using Guid(42a0d4a0cdde425a930dc5ae1c3f64ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7db1279fa15253a564c4c295bfeeb3') in 0.070414 seconds
+  Import took 0.074083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_slide.png
+  artifactKey: Guid(38259642eea83c740b18225fcc6afcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_slide.png using Guid(38259642eea83c740b18225fcc6afcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed7675473d622bc5fb689c463f12a51') in 0.063526 seconds
+  Import took 0.065655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_rifle.png
+  artifactKey: Guid(23d536d6083344698e17aa8fc049b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_rifle.png using Guid(23d536d6083344698e17aa8fc049b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e997266c8edf6941a20e509b5b1d20') in 0.011853 seconds
+  Import took 0.013956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_rifle.png
+  artifactKey: Guid(123d54a09b5e49a7b77ca17b4009834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_rifle.png using Guid(123d54a09b5e49a7b77ca17b4009834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535b12ef7536f3adb56bd58dba8a4ecc') in 0.015158 seconds
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_wood_barrier.png
+  artifactKey: Guid(c94c2e2b9bf12ca4680516aeed0708df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_wood_barrier.png using Guid(c94c2e2b9bf12ca4680516aeed0708df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e613f987210a58e733073fb781a0138') in 0.066268 seconds
+  Import took 0.068505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_hold.png
+  artifactKey: Guid(09c6bf1cbce9be746b148f6019fd6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_hold.png using Guid(09c6bf1cbce9be746b148f6019fd6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a99b8e6d2aa2dc656ac79b165712e') in 0.110560 seconds
+  Import took 0.112781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_jump.png
+  artifactKey: Guid(263bbf868f1c40ef9da04b8d96ce8d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_jump.png using Guid(263bbf868f1c40ef9da04b8d96ce8d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce75b77150f197528075451d6f71a26') in 0.093207 seconds
+  Import took 0.095419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sword.png
+  artifactKey: Guid(a1925e7d73214f63a8ddcce6bea40954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sword.png using Guid(a1925e7d73214f63a8ddcce6bea40954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89eefba02486c444f1fdfa2838d0a02') in 0.064856 seconds
+  Import took 0.067008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_idle.png
+  artifactKey: Guid(9c447c54c8e0416e9446cadb88c48fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_idle.png using Guid(9c447c54c8e0416e9446cadb88c48fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7a73c0dad478051837ad7e013b8d96') in 0.100302 seconds
+  Import took 0.102543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hammer.png
+  artifactKey: Guid(89d0d2c995a54eb2a3cb02091a983efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hammer.png using Guid(89d0d2c995a54eb2a3cb02091a983efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7485fad20ca1afc7c0d2f0bb41d33') in 0.181107 seconds
+  Import took 0.183504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_explosion.png
+  artifactKey: Guid(9f30f35184729d64e9778f3a861945dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_explosion.png using Guid(9f30f35184729d64e9778f3a861945dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49ebb1bc21e1b0efb3e8a7188fcd9fd') in 0.032172 seconds
+  Import took 0.034327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_ground.png
+  artifactKey: Guid(9c6314050d870a4409074e27c5e79132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_ground.png using Guid(9c6314050d870a4409074e27c5e79132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a2a4665d3eb425fccc7a05e1be6c2') in 0.044747 seconds
+  Import took 0.047045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_muzzleflash.png
+  artifactKey: Guid(9cfbb362323bfad4eb88e48d04d8a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_muzzleflash.png using Guid(9cfbb362323bfad4eb88e48d04d8a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1422bdc865a1f5fac8096a2b34e2a743') in 0.011154 seconds
+  Import took 0.013344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sword.png
+  artifactKey: Guid(15eb07192dee43dcb169478da3b487d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sword.png using Guid(15eb07192dee43dcb169478da3b487d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ab2cb30028b9c97dda33ce4e53dd55') in 0.095516 seconds
+  Import took 0.097841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_arrow_basic.png
+  artifactKey: Guid(32fc46fa3f0e8b349b777fc008066ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_arrow_basic.png using Guid(32fc46fa3f0e8b349b777fc008066ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e641d1279d97ffb97d0b4c64042066') in 0.008839 seconds
+  Import took 0.010880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_throw.png
+  artifactKey: Guid(bb842fe46e994e6b903ffa8af9ae0f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_throw.png using Guid(bb842fe46e994e6b903ffa8af9ae0f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f75d7d803ae37de30f5e1a4d20212e') in 0.095873 seconds
+  Import took 0.098494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_gun.png
+  artifactKey: Guid(7adb3002b143465ca80d83e1b71af788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_gun.png using Guid(7adb3002b143465ca80d83e1b71af788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1776176d2346af1bc6105032ef08d1a') in 0.012455 seconds
+  Import took 0.014706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_run.png
+  artifactKey: Guid(acb8cab598694f619dd44693cb68fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_run.png using Guid(acb8cab598694f619dd44693cb68fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410f18d78c6d31d3cff38f0cb47cc15c') in 0.062597 seconds
+  Import took 0.064777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_bow.png
+  artifactKey: Guid(6cd198aefcb544d6aa5f8f37be4f872a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_bow.png using Guid(6cd198aefcb544d6aa5f8f37be4f872a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eac2aaef013dd0de5e55aa155da27d') in 0.044595 seconds
+  Import took 0.046690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bullets.png
+  artifactKey: Guid(30edb9d12883df642bcb8b4f9bb0c3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bullets.png using Guid(30edb9d12883df642bcb8b4f9bb0c3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90867facf0f50b1fd6f893917325fe49') in 0.014178 seconds
+  Import took 0.016417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_hammer.png
+  artifactKey: Guid(626be61ea46848f48841509c5271e64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_hammer.png using Guid(626be61ea46848f48841509c5271e64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd4331c110f8d89087935ea01ada301') in 0.117744 seconds
+  Import took 0.120394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_walk.png
+  artifactKey: Guid(3d2f599474fd4b2994881f42880ea8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_walk.png using Guid(3d2f599474fd4b2994881f42880ea8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1007a1e0b5f5774e62a9b51be42784a7') in 0.076901 seconds
+  Import took 0.079032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_crawl.png
+  artifactKey: Guid(43eb704c8d3f4f02b188c5988c58b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_crawl.png using Guid(43eb704c8d3f4f02b188c5988c58b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78de6078382f97b56ab35a75d948f1b7') in 0.094087 seconds
+  Import took 0.096684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_desert.png
+  artifactKey: Guid(0ece8860f6ff7b949bcc603e99fefe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_desert.png using Guid(0ece8860f6ff7b949bcc603e99fefe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1403e68a31df244850a10716acfd71fb') in 0.157237 seconds
+  Import took 0.159677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 434.494402 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a1853b736837ecfb0820a881449cb') in 0.005199 seconds
+  Import took 0.007872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a1853b736837ecfb0820a881449cb') in 0.001518 seconds
+  Import took 0.003641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.631488 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(06817c88c31e843429f20351562e67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(06817c88c31e843429f20351562e67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3df07e6192809cf78e8a9dcb572f29') in 0.004894 seconds
+  Import took 0.007342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.825429 seconds.
+  path: Assets/Pixel Adventure 1
+  artifactKey: Guid(eb14adaf7d54ed14688b542f8c25e3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1 using Guid(eb14adaf7d54ed14688b542f8c25e3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806c055e0afdef82df4171a73aff9650') in 0.004949 seconds
+  Import took 0.007157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552461 seconds.
+  path: Assets/Pixel Adventure 1/Assets
+  artifactKey: Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets using Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb51e16b46c5360f2e7338ca14c1e00') in 0.004373 seconds
+  Import took 0.006874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.929712 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters
+  artifactKey: Guid(c674b6697fb2a834d9379dc2411ddde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters using Guid(c674b6697fb2a834d9379dc2411ddde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dc11f51dbb4a87873c7c410e8ec255') in 0.005255 seconds
+  Import took 0.007515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042337 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png
+  artifactKey: Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png using Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c26423a5834732ffe4d4733930ecca') in 0.019463 seconds
+  Import took 0.021980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png
+  artifactKey: Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png using Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e290e055684e538c1fd36125c62bd9') in 0.016258 seconds
+  Import took 0.018314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006156 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png
+  artifactKey: Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png using Guid(99e1beacf34e67c42afd2d344aefcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e290e055684e538c1fd36125c62bd9') in 0.013528 seconds
+  Import took 0.016446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.334738 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude
+  artifactKey: Guid(40248927e767fcc40acdf26796daffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude using Guid(40248927e767fcc40acdf26796daffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8a7645eaabb0eb792eac503c2035d') in 0.004937 seconds
+  Import took 0.007157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099208 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png
+  artifactKey: Guid(241f742f0911c3a428eea6612ae23b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(241f742f0911c3a428eea6612ae23b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5510e99aeb6f6d432bae0f12952c2b7') in 0.012546 seconds
+  Import took 0.014774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png
+  artifactKey: Guid(3750f45c844123341b9a777a96cb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png using Guid(3750f45c844123341b9a777a96cb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4653e40c5eafc8a7b2a6ca894ad6fd5a') in 0.019323 seconds
+  Import took 0.023364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png
+  artifactKey: Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1531f2a16b83309a296c20052b8c4d15') in 0.012309 seconds
+  Import took 0.014517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png
+  artifactKey: Guid(2d728ff08787c6640bbe4984c7ff018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png using Guid(2d728ff08787c6640bbe4984c7ff018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14393d54ec7c21cef306ae1fca1822cb') in 0.008228 seconds
+  Import took 0.010622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png
+  artifactKey: Guid(97d5ce53f3ac76e4888319c6a53c7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png using Guid(97d5ce53f3ac76e4888319c6a53c7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011cfd56389d6da73962be9fec93cf26') in 0.021073 seconds
+  Import took 0.023571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png
+  artifactKey: Guid(88794fc5febd16e40a94cacbf542b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png using Guid(88794fc5febd16e40a94cacbf542b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f6e8fcde81eaad73bd040111499416') in 0.007937 seconds
+  Import took 0.010120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png
+  artifactKey: Guid(b234dd527243d1042a19b2cf7ef17cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png using Guid(b234dd527243d1042a19b2cf7ef17cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f0c1c02682c096efa207a62cc841f8') in 0.015724 seconds
+  Import took 0.018191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.082772 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man
+  artifactKey: Guid(42afdc0a1bbe6314b8aa6b3431e802ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man using Guid(42afdc0a1bbe6314b8aa6b3431e802ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7731467df5678bfdfb5e8c77462c8f7') in 0.004632 seconds
+  Import took 0.006832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053704 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png
+  artifactKey: Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png using Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d46ecbdde12df4418397239f03d990') in 0.011914 seconds
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png
+  artifactKey: Guid(9b0499fd3a0892046926ed19c78cfea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png using Guid(9b0499fd3a0892046926ed19c78cfea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7c0d48fd91e33671ec1bb4c07f80ef') in 0.014428 seconds
+  Import took 0.016458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png
+  artifactKey: Guid(cdb0cc8ca9aac2a4d84c6aa3c1cbf52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png using Guid(cdb0cc8ca9aac2a4d84c6aa3c1cbf52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12796f5489b71563ea1c6374acb7b53') in 0.019276 seconds
+  Import took 0.021481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png
+  artifactKey: Guid(603abb83490921841976d0f1b2045f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png using Guid(603abb83490921841976d0f1b2045f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6e44cbab35cdef2bc56448ebe9ca01') in 0.011951 seconds
+  Import took 0.014316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png
+  artifactKey: Guid(edbf2f282f3feb940b6238d4d339ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png using Guid(edbf2f282f3feb940b6238d4d339ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4248895ba7fdd8e97b138608616f198e') in 0.007197 seconds
+  Import took 0.010107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png
+  artifactKey: Guid(1a6feec238b9a99499082bb755fa32df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png using Guid(1a6feec238b9a99499082bb755fa32df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07308d98c8dfb21aa821c99b47a26d7c') in 0.007326 seconds
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png
+  artifactKey: Guid(d348dff3819df794186a80cb95777629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png using Guid(d348dff3819df794186a80cb95777629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c268c01eaa03d97e8d5349bc1d0db9c') in 0.018317 seconds
+  Import took 0.020518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.736836 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy
+  artifactKey: Guid(5ef42789be2506f4893c4622d915911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy using Guid(5ef42789be2506f4893c4622d915911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a44fa9006819f98a184b05d0ae1c70') in 0.004836 seconds
+  Import took 0.007129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073592 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png
+  artifactKey: Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f83643a495cce911ea7082c1781031') in 0.011873 seconds
+  Import took 0.014082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
+  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27e69206bf7513cca06d56a01721a07') in 0.018244 seconds
+  Import took 0.020273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png
+  artifactKey: Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png using Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd1f6c72dcc59f90ffc512a268ccfac') in 0.013477 seconds
+  Import took 0.015626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
+  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c167ec29b10b70f6043bf839e2cc49c') in 0.007389 seconds
+  Import took 0.009887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
+  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b28ade1d68f3796e0b8633f3b8f0c04') in 0.012771 seconds
+  Import took 0.015008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb048614f0625181c0622049fd189e9') in 0.019916 seconds
+  Import took 0.022057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png
+  artifactKey: Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png using Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff67265a89ae971ef91f66c2a4ed2f9') in 0.007449 seconds
+  Import took 0.009722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.827330 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae976ee523f39616c4a3b6e04aa8a2f5') in 0.023238 seconds
+  Import took 0.025615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.824666 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd52d71c9e03750130f785269b2bde8') in 0.021209 seconds
+  Import took 0.023447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.412357 seconds.
+  path: Assets/Scripts/Main.cs
+  artifactKey: Guid(1f1e7f67e4c0ada4a9af1923015faf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Main.cs using Guid(1f1e7f67e4c0ada4a9af1923015faf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc5a0b202fbe535e37b8bda9bf4756f') in 0.013258 seconds
+  Import took 0.015499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089927 seconds.
+  path: Assets/Scripts/Main.cs
+  artifactKey: Guid(1f1e7f67e4c0ada4a9af1923015faf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Main.cs using Guid(1f1e7f67e4c0ada4a9af1923015faf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc5a0b202fbe535e37b8bda9bf4756f') in 0.001888 seconds
+  Import took 0.004617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 1.568600 ms (FindLiveObjects: 0.192400 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.240800 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.057603 seconds.
+  path: Assets/Scripts/New Folder
+  artifactKey: Guid(811f5e92c77b14a43b7b08819b3b0665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Folder using Guid(811f5e92c77b14a43b7b08819b3b0665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778930d4afdb388ce4c70bfa78a464d') in 0.006765 seconds
+  Import took 0.009110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003891 seconds.
+  path: Assets/Scripts/New Folder
+  artifactKey: Guid(811f5e92c77b14a43b7b08819b3b0665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Folder using Guid(811f5e92c77b14a43b7b08819b3b0665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778930d4afdb388ce4c70bfa78a464d') in 0.001577 seconds
+  Import took 0.003844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.170815 seconds.
+  path: Assets/Scripts/Config
+  artifactKey: Guid(811f5e92c77b14a43b7b08819b3b0665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Config using Guid(811f5e92c77b14a43b7b08819b3b0665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f140298d8501f36ba5a8895edd9e2f5a') in 0.004647 seconds
+  Import took 0.006919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.444550 seconds.
+  path: Assets/Scripts/Controllers
+  artifactKey: Guid(c7f3ae5073f025d4fb8e087fd8535b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers using Guid(c7f3ae5073f025d4fb8e087fd8535b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e43b3a61d786aae57725c4589ecfd2') in 0.005137 seconds
+  Import took 0.007313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.522076 seconds.
+  path: Assets/Scripts/Interfaces
+  artifactKey: Guid(c5b9b85875c048f4195ab66f29ba93f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interfaces using Guid(c5b9b85875c048f4195ab66f29ba93f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58db6a43f91f3d524395961db6ca5ea') in 0.005071 seconds
+  Import took 0.007339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.622883 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(05c4599a2501aa24ebd9aae6b0142c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(05c4599a2501aa24ebd9aae6b0142c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00b16dd8955f06486f64ffca6b06c32') in 0.005128 seconds
+  Import took 0.007617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(05c4599a2501aa24ebd9aae6b0142c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(05c4599a2501aa24ebd9aae6b0142c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00b16dd8955f06486f64ffca6b06c32') in 0.001567 seconds
+  Import took 0.003851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.566404 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dced07946141a818ed93299133b55e1') in 0.010013 seconds
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.821821 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45c3e1a0d7cdce8095581a40836442d') in 0.005372 seconds
+  Import took 0.007770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.327024 seconds.
+  path: Assets/Pixel Adventure 1/Scenes
+  artifactKey: Guid(dbc7f956d9ee8744ba00759404b21d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Scenes using Guid(dbc7f956d9ee8744ba00759404b21d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c83df39f17a1be2c6c0f587f024dc6') in 0.001807 seconds
+  Import took 0.004133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.313576 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png
+  artifactKey: Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png using Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c04984318e578225d562b845ff4bbb') in 0.032957 seconds
+  Import took 0.035520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.094089 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
+  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e446326751512ae0459eaee57c7adb9') in 0.021606 seconds
+  Import took 0.023860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.882575 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png
+  artifactKey: Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png using Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c86e4138640280cc243378b0c6105e3') in 0.012657 seconds
+  Import took 0.015005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.303524 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
+  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f51680260729034877e6709d8c6e4b7') in 0.006650 seconds
+  Import took 0.009468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.491446 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png
+  artifactKey: Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e67d581e649722dfce0326a3bc829a') in 0.011510 seconds
+  Import took 0.013900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.699931 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
+  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69487a56de0932bbf0726d8fc69e28ca') in 0.011002 seconds
+  Import took 0.013253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.155573 seconds.
+  path: Assets/Scripts/Model
+  artifactKey: Guid(cac3ab3a7f280594c81a58ce023d0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Model using Guid(cac3ab3a7f280594c81a58ce023d0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019079dfe57255ebefd913acfb0ecda6') in 0.005131 seconds
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.433900 seconds.
+  path: Assets/Scripts/View
+  artifactKey: Guid(af19699643f7f16488cbd1b30b0b327d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View using Guid(af19699643f7f16488cbd1b30b0b327d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01da41e35ae3eae4e204e0234485870') in 0.004690 seconds
+  Import took 0.007898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.875409 seconds.
+  path: Assets/Scripts/Utilits
+  artifactKey: Guid(fb7dc3a177e9926448164f5dd0515c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utilits using Guid(fb7dc3a177e9926448164f5dd0515c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6e027aa50ba86e6e1845cbe9e03190') in 0.004846 seconds
+  Import took 0.007103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.821920 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(63640f2c918e10a4f8baaac4e2993bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(63640f2c918e10a4f8baaac4e2993bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3c36c743ab5f2b0ce0798c851f0862') in 0.005062 seconds
+  Import took 0.007299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.235242 seconds.
+  path: Assets/Configs
+  artifactKey: Guid(5aaabdafc8c2af744b61d835a5d597d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Configs using Guid(5aaabdafc8c2af744b61d835a5d597d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f058cb2d4a2d8c8475f34def98f3e5') in 0.004911 seconds
+  Import took 0.007149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.224248 seconds.
+  path: Assets/Configs/Resources
+  artifactKey: Guid(2cec56a9b0a1ee84698c0dc96a9ac3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Configs/Resources using Guid(2cec56a9b0a1ee84698c0dc96a9ac3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3986f43cee25669a4dceb3de3c5eed1d') in 0.004814 seconds
+  Import took 0.006998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.359887 seconds.
+  path: Assets/Prefabs/Resources
+  artifactKey: Guid(0f8c0858153e1f7499ee16dee63161ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Resources using Guid(0f8c0858153e1f7499ee16dee63161ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55f63064fae948dfc057db15701ae2f') in 0.001586 seconds
+  Import took 0.003885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.032605 seconds.
+  path: Assets/Scripts/View/LevelObjetsView.cs
+  artifactKey: Guid(5405b59532d636e4abc237dd58194e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/LevelObjetsView.cs using Guid(5405b59532d636e4abc237dd58194e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525ff1342f281f39d9297e3f65e6d6c9') in 0.005683 seconds
+  Import took 0.008245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 1.836300 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.489100 ms  DeleteObjects: 0.083200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2405.
+Total: 1.476200 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.185700 ms  DeleteObjects: 0.081900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.861300 seconds.
+  path: Assets/Scripts/View/LevelObjetView.cs
+  artifactKey: Guid(5405b59532d636e4abc237dd58194e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/LevelObjetView.cs using Guid(5405b59532d636e4abc237dd58194e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0326e6ff13e5429c231bd6a3a7c9cf1') in 0.006726 seconds
+  Import took 0.009019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.821033 seconds.
+  path: Assets/Scripts/Config/SpriteAnimatorConfig.cs
+  artifactKey: Guid(deeecaa590df75048acd518fe84e0e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Config/SpriteAnimatorConfig.cs using Guid(deeecaa590df75048acd518fe84e0e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336adb4039544086b0043fbe1b3fa032') in 0.006255 seconds
+  Import took 0.008675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2410.
+Total: 1.515900 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.209100 ms  DeleteObjects: 0.083300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 1.510000 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.227800 ms  DeleteObjects: 0.078200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.007993 seconds.
+  path: Assets/Scripts/Config/SpriteAnimatorConfig.cs
+  artifactKey: Guid(deeecaa590df75048acd518fe84e0e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Config/SpriteAnimatorConfig.cs using Guid(deeecaa590df75048acd518fe84e0e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599986adb6776faf7987000180d2a9dc') in 0.003791 seconds
+  Import took 0.006126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.571811 seconds.
+  path: Assets/Configs/Resources/SpriteAnimatorCfg.asset
+  artifactKey: Guid(026b2797e19954447afc25789a3e1dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Configs/Resources/SpriteAnimatorCfg.asset using Guid(026b2797e19954447afc25789a3e1dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04411b7628892e93b655d12f88853b54') in 0.016643 seconds
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.002007 seconds.
+  path: Assets/Configs/Resources/PlayerAnimCfg.asset
+  artifactKey: Guid(026b2797e19954447afc25789a3e1dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Configs/Resources/PlayerAnimCfg.asset using Guid(026b2797e19954447afc25789a3e1dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b962445a6eb5791b4f23e3d4da99e1ae') in 0.006698 seconds
+  Import took 0.009055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.379227 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667ca2e7d941861b45bc6ca725142d7') in 0.045973 seconds
+  Import took 0.048197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.710223 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a195ad93bd1beaa23a54d9b2d0602c7') in 0.023787 seconds
+  Import took 0.026232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.183247 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
+  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c45cbe830d71ca019d3b19057ed68') in 0.014356 seconds
+  Import took 0.016683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.450110 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png
+  artifactKey: Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png using Guid(320f4eb52e227b446830a1f6fd691fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a02e61267569117bf263c4e8fb5e274') in 0.007375 seconds
+  Import took 0.009664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.994825 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
+  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4635ff57a59c7fdb0cdca253d4113fef') in 0.020262 seconds
+  Import took 0.022597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.745612 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png
+  artifactKey: Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png using Guid(0b4768f2ab470f44ca33fa59836a0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ad6ad52f7f105ef43fd969b227ea44') in 0.017067 seconds
+  Import took 0.019467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.967021 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
+  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0fb72d90a5fbb88ec35129f99f755d') in 0.007127 seconds
+  Import took 0.009471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.674120 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png
+  artifactKey: Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561d02202deb34063e27a1583e4242f') in 0.013904 seconds
+  Import took 0.016350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.014583 seconds.
+  path: Assets/Scripts/Controllers/SpriteAnimatorController.cs
+  artifactKey: Guid(ba771589009cc534ebcd9a7a696dfde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/SpriteAnimatorController.cs using Guid(ba771589009cc534ebcd9a7a696dfde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85ef74539ed16b0d0407de807903fe1') in 0.006396 seconds
+  Import took 0.009210 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 1.910600 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.070500 ms MarkObjects: 1.537900 ms  DeleteObjects: 0.082200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 1.687000 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.349300 ms  DeleteObjects: 0.096100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2405.701768 seconds.
+  path: Assets/Scripts/Controllers/SpriteAnimatorController.cs
+  artifactKey: Guid(ba771589009cc534ebcd9a7a696dfde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/SpriteAnimatorController.cs using Guid(ba771589009cc534ebcd9a7a696dfde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f86a606c220ac686781e4cce7120992') in 0.003627 seconds
+  Import took 0.005861 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2428.
+Total: 1.765500 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.434000 ms  DeleteObjects: 0.084300 ms)
+
