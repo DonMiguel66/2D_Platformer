@@ -42,17 +42,17 @@ namespace MyPlatformer
             _config = config;
         }
 
-        public void StartAnimation(SpriteRenderer spriteRenderer, AnimState track, bool loop, float speed)
+        public void StartAnimation(SpriteRenderer spriteRenderer, AnimState track, bool loop)
         {
             if(_activeAnimation.TryGetValue(spriteRenderer, out var animation))
             {
                 animation.Sleep = false;
                 animation.Loop = loop;
-                animation.Speed = speed;
                 if(animation.Track != track)
                 {
                     animation.Track = track;
                     animation.Sprites = _config.Sequence.Find(sequence => sequence.Track == track).Sprites;
+                    animation.Speed = _config.Sequence.Find(sequence => sequence.Track == track).AnimationSpeed;
                     animation.FrameCounter = 0;
                 }
             }
@@ -62,10 +62,10 @@ namespace MyPlatformer
                 new Animation()
                 {
                     Loop = loop,
-                    Speed = speed,
                     Track = track,
-                    Sprites = _config.Sequence.Find(sequence => sequence.Track == track).Sprites
-                });
+                    Sprites = _config.Sequence.Find(sequence => sequence.Track == track).Sprites,
+                    Speed = _config.Sequence.Find(sequence => sequence.Track == track).AnimationSpeed
+            });
             }               
         }
 
