@@ -9,7 +9,7 @@ namespace MyPlatformer
         private float _xAxisInput;
         private bool _isJump;
         
-        private float _playerSpeed = 3f;
+        private float _playerSpeed;
         private float _movingTreshold = 0.1f;
 
         private Vector3 _leftScale = new Vector3(-1, 1, 1);
@@ -19,73 +19,76 @@ namespace MyPlatformer
 
         private float _jumpSpeed = 5f;
         private float _jumpTreshold = 1f;
-        private float _gravityForce = -9.8f;
-        private float _groundLevel = 0.5f;
         private bool _isDoubleJump = false;
         private float _yVelocity;
         private float _xVelocity;
 
         private LevelObjetView _playerView;
         private SpriteAnimatorController _playerAnimator;
+        private readonly ContactPooler _contactPooler;
 
-        public PlayerController(LevelObjetView player, SpriteAnimatorController animator)
+        public PlayerController(LevelObjetView player, SpriteAnimatorController animator, float playerSpeed)
         {
             _playerView = player;
+            _playerSpeed = playerSpeed;
             _playerAnimator = animator;
             _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.Idle, true);
+            _contactPooler = new ContactPooler(_playerView._collider);
         }
 
         private void MoveTowards()
         {
-            _playerView._transform.position += Vector3.right * (Time.deltaTime * _playerSpeed * (_xAxisInput < 0 ? -1 : 1));
+            _xVelocity = Time.fixedDeltaTime * _playerSpeed * (_xAxisInput < 0 ? -1 : 1);
+
+            _playerView._rigidbody.velocity = _playerView._rigidbody.velocity.Change(x: _xVelocity);
             _playerView._transform.localScale = (_xAxisInput < 0 ? _leftScale : _rightScale);
         }
 
-        public bool IsGrounded()
+        private void Jump(float jumpSpeed)
         {
-            return _playerView._transform.position.y <= _groundLevel && _yVelocity <= 0;
+            _playerView._rigidbody.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
         }
+
 
         public void Execute()
         {
+            _contactPooler.Execute();
             _playerAnimator.Update();
             _xAxisInput = Input.GetAxis("Horizontal");
-            //_isJump = Input.GetAxis("Vertical") > 0;
             _isJump = Input.GetButtonDown("Jump");
             _isMoving = Mathf.Abs(_xAxisInput) > _movingTreshold;
+            float vertivalVelocity = _playerView._rigidbody.velocity.y;
 
-            if(_isMoving)
+            if (_isMoving)
             {
                 MoveTowards();
             }
 
-            if (IsGrounded())
+            if (_contactPooler.IsGrounded)
             {
+                _isDoubleJump = false;
                 _playerAnimator.StartAnimation(_playerView._spriteRenderer, _isMoving ? AnimState.Run : AnimState.Idle, true);
-                if (_isJump && _yVelocity <= 0)
+                if (_isJump && Mathf.Abs(vertivalVelocity) <= _jumpTreshold)
                 {
-                    _yVelocity = _jumpSpeed;
-                }
-                else if (_yVelocity < 0)
-                {
-                    _yVelocity = float.Epsilon;
-                    _playerView._transform.position = _playerView._transform.position.Change(y: _groundLevel);
-                    _isDoubleJump = false;
+                    Jump(_jumpSpeed);
                 }
             }
             else
             {
-                if (_isJump && Mathf.Abs(_yVelocity) > 0.15 && _isDoubleJump == false)
+                if (_isJump && Mathf.Abs(vertivalVelocity) > 0.15f && _isDoubleJump == false)
                 {
-                    _yVelocity = _jumpSpeed * 0.75f;
+                    if(vertivalVelocity < -0.5)
+                        Jump(_jumpSpeed * 1.5f);
+                    else
+                        Jump(_jumpSpeed * 0.75f);
                     _isDoubleJump = true;
+                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.DoubleJump, true);
                 }
-                if(Mathf.Abs(_yVelocity)>_jumpTreshold)
+                else if(Mathf.Abs(vertivalVelocity) > _jumpTreshold && vertivalVelocity <-0.15)
                 {
-                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, _isDoubleJump ? AnimState.DoubleJump : AnimState.Jump, true);
+                    //_playerAnimator.StartAnimation(_playerView._spriteRenderer, _isDoubleJump ? AnimState.DoubleJump : AnimState.Jump, true);
+                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.Jump, true);
                 }
-                _yVelocity += _gravityForce * Time.deltaTime;
-                _playerView._transform.position += Vector3.up * (Time.deltaTime * _yVelocity);
             }
         }
     }

@@ -8,9 +8,11 @@ namespace MyPlatformer
     {
         [SerializeField] private SpriteAnimatorConfig _playerConfig;
         [SerializeField] private int _animationSpeed = 10;
+        [SerializeField] private float _playerSpeed = 100;
         [SerializeField] private LevelObjetView _playerView;
 
         private SpriteAnimatorController _playerAnimator;
+        private CameraController _cameraController;
         private PlayerController _playerController;
 
         void Awake()
@@ -23,13 +25,15 @@ namespace MyPlatformer
 
             _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.Run, true);
 
-            _playerController = new PlayerController(_playerView, _playerAnimator);
+            _playerController = new PlayerController(_playerView, _playerAnimator, _playerSpeed);
+
+            _cameraController = new CameraController(_playerView.transform, Camera.main.transform);
         }
 
         void Update()
         {
             _playerController.Execute();
-
+            _cameraController.Execute();
         }
     }
 }
