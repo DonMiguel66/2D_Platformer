@@ -23,16 +23,16 @@ namespace MyPlatformer
         private float _yVelocity;
         private float _xVelocity;
 
-        private LevelObjetView _playerView;
+        private LevelObjectView _playerView;
         private SpriteAnimatorController _playerAnimator;
         private readonly ContactPooler _contactPooler;
 
-        public PlayerController(LevelObjetView player, SpriteAnimatorController animator, float playerSpeed)
+        public PlayerController(LevelObjectView player, SpriteAnimatorController animator, float playerSpeed)
         {
             _playerView = player;
             _playerSpeed = playerSpeed;
             _playerAnimator = animator;
-            _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.Idle, true);
+            _playerAnimator.StartAnimation(_playerView._spriteRenderer, PlayerAnimState.Idle, true);
             _contactPooler = new ContactPooler(_playerView._collider);
         }
 
@@ -53,7 +53,7 @@ namespace MyPlatformer
         public void Execute()
         {
             _contactPooler.Execute();
-            _playerAnimator.Update();
+            _playerAnimator.Execute();
             _xAxisInput = Input.GetAxis("Horizontal");
             _isJump = Input.GetButtonDown("Jump");
             _isMoving = Mathf.Abs(_xAxisInput) > _movingTreshold;
@@ -67,7 +67,7 @@ namespace MyPlatformer
             if (_contactPooler.IsGrounded)
             {
                 _isDoubleJump = false;
-                _playerAnimator.StartAnimation(_playerView._spriteRenderer, _isMoving ? AnimState.Run : AnimState.Idle, true);
+                _playerAnimator.StartAnimation(_playerView._spriteRenderer, _isMoving ? PlayerAnimState.Run : PlayerAnimState.Idle, true);
                 if (_isJump && Mathf.Abs(vertivalVelocity) <= _jumpTreshold)
                 {
                     Jump(_jumpSpeed);
@@ -82,12 +82,12 @@ namespace MyPlatformer
                     else
                         Jump(_jumpSpeed * 0.75f);
                     _isDoubleJump = true;
-                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.DoubleJump, true);
+                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, PlayerAnimState.DoubleJump, true);
                 }
                 else if(Mathf.Abs(vertivalVelocity) > _jumpTreshold && vertivalVelocity <-0.15)
                 {
                     //_playerAnimator.StartAnimation(_playerView._spriteRenderer, _isDoubleJump ? AnimState.DoubleJump : AnimState.Jump, true);
-                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, AnimState.Jump, true);
+                    _playerAnimator.StartAnimation(_playerView._spriteRenderer, PlayerAnimState.Jump, true);
                 }
             }
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace MyPlatformer
 {    
-    public enum AnimState
+    public enum PlayerAnimState
     {
         Idle = 0,
         Run = 1,
@@ -12,13 +12,14 @@ namespace MyPlatformer
         DoubleJump = 3
     }
 
-    [CreateAssetMenu(fileName ="SpriteAnimatorCfg", menuName = "Configs / Animation Cfg", order = 1)]
+
+    [CreateAssetMenu(fileName ="CharachterSpriteAnimatorCfg", menuName = "Configs / Animation Cfg", order = 1)]
     public class SpriteAnimatorConfig : ScriptableObject
-    {
+    {   
         [Serializable]
         public sealed class SpriteSequence 
         {
-            public AnimState Track;
+            public PlayerAnimState Track;
             public List<Sprite> Sprites = new List<Sprite>();
             public float AnimationSpeed;
         }

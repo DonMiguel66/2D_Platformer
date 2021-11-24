@@ -8,10 +8,10 @@ namespace MyPlatformer
     {
         private sealed class Animation
         {
-            public AnimState Track;
+            public PlayerAnimState Track;
             public List<Sprite> Sprites;
             public bool Loop;
-            public float Speed = 10;
+            public float Speed;
             public float FrameCounter = 0;
             public bool Sleep;
 
@@ -41,8 +41,7 @@ namespace MyPlatformer
         {
             _config = config;
         }
-
-        public void StartAnimation(SpriteRenderer spriteRenderer, AnimState track, bool loop)
+        public void StartAnimation(SpriteRenderer spriteRenderer, PlayerAnimState track, bool loop)
         {
             if(_activeAnimation.TryGetValue(spriteRenderer, out var animation))
             {
@@ -77,7 +76,7 @@ namespace MyPlatformer
             }
         }
 
-        public void Update()
+        public void Execute()
         {
             foreach(var animation in _activeAnimation)
             {
