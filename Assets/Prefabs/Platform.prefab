@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8850393071696841136}
   - component: {fileID: 7446322248762532378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bricks_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7219757433177215436}
   - component: {fileID: 2355512964226158794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bricks_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5457029181032504766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalPosition: {x: -0.9411765, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4503120500232952249}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4503120500232952249}
   - component: {fileID: 8109176120247751374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -189,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6355385746141109524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.501, y: -0.501, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7219757433177215436}
@@ -207,11 +207,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 6355385746141109524}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 58c8e73be0fd0b14b993823bb2ac30fc, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00050604343, y: 0.0006657988}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -222,7 +222,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 1}
+  m_Size: {x: 2.8220422, y: 0.9326092}
   m_EdgeRadius: 0
 --- !u!1 &8144267705074459214
 GameObject:
@@ -234,7 +234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9151652387480436017}
   - component: {fileID: 2046809403880792030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bricks_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8144267705074459214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.94117653, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4503120500232952249}

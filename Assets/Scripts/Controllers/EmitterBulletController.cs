@@ -11,7 +11,7 @@ namespace MyPlatformer
         private int _currentIndex;
         private float _shotCooldown;
 
-        private float _delay = 1f;
+        private float _delay = 3f;
         private float _startSpeed = 10f;
 
         public EmitterBulletController(List<LevelObjectView> bulletViews, Transform transform)
