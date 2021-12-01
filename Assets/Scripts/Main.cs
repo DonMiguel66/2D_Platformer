@@ -14,6 +14,7 @@ namespace MyPlatformer
         [SerializeField] private LevelObjectView _playerView;
         [SerializeField] private TurrelView _turrelView;
         [SerializeField] private List<LevelObjectView> _coinsViews;
+        [SerializeField] private GeneratorLevelView _generatorLevelView;
 
 
         private SpriteAnimatorController _playerAnimator;
@@ -23,6 +24,8 @@ namespace MyPlatformer
         private EmitterBulletController _emitterBulletController;
         private TurrelController _turrelController;
         private CoinsController _coinsController;
+        private GeneratorController _generatorController;
+
 
         void Awake()
         {
@@ -48,6 +51,9 @@ namespace MyPlatformer
             _turrelController = new TurrelController(_turrelView._muzzleTransform, _playerView._transform);
             _emitterBulletController = new EmitterBulletController(_turrelView._bullets, _turrelView._emitterTransform);
             _coinsController = new CoinsController(_playerView, _coinsViews, _coinAnimator);
+
+            _generatorController = new GeneratorController(_generatorLevelView);
+            _generatorController.Init();
         }
 
         void Update()
