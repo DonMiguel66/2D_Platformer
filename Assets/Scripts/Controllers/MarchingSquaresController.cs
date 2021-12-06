@@ -103,9 +103,9 @@ namespace MyPlatformer
 
             Squares = new Square[nodeCountX - 1, nodeCountY - 1];
 
-            for (int x = 0; x < nodeCountX; x++)
+            for (int x = 0; x < nodeCountX-1; x++)
             {
-                for (int y = 0; y < nodeCountY; y++)
+                for (int y = 0; y < nodeCountY-1; y++)
                 {
                     Squares[x, y] = new Square(controlNodes[x, y + 1], controlNodes[x + 1, y + 1], controlNodes[x + 1, y], controlNodes[x, y]);
                 }

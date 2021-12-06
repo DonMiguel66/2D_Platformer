@@ -15,6 +15,8 @@ namespace MyPlatformer
         [SerializeField] private TurrelView _turrelView;
         [SerializeField] private List<LevelObjectView> _coinsViews;
         [SerializeField] private GeneratorLevelView _generatorLevelView;
+        [SerializeField] private QuestView _questView;
+
 
 
         private SpriteAnimatorController _playerAnimator;
@@ -25,6 +27,7 @@ namespace MyPlatformer
         private TurrelController _turrelController;
         private CoinsController _coinsController;
         private GeneratorController _generatorController;
+        private QuestConfiguratorController _questConfiguratorController;
 
 
         void Awake()
@@ -54,15 +57,22 @@ namespace MyPlatformer
 
             _generatorController = new GeneratorController(_generatorLevelView);
             _generatorController.Init();
+
+            _questConfiguratorController = new QuestConfiguratorController(_questView);
+            _questConfiguratorController.Init();
         }
 
         void Update()
         {
             _playerController.Execute();
-            _cameraController.Execute();
             _turrelController.Execute();
             _emitterBulletController.Execute();
             _coinAnimator.Execute();
+        }
+
+        private void LateUpdate()
+        {
+            _cameraController.Execute();
         }
     }
 }

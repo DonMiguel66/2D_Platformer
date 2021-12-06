@@ -75,7 +75,7 @@ namespace MyPlatformer
             }
             else
             {
-                if (_isJump && Mathf.Abs(vertivalVelocity) > 0.15f && _isDoubleJump == false)
+                if (_isJump && Mathf.Abs(vertivalVelocity) > 0.3f && _isDoubleJump == false)
                 {
                     if(vertivalVelocity < -0.5)
                         Jump(_jumpSpeed * 1.5f);
